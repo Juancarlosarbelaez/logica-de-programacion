@@ -17,18 +17,17 @@ public class bandera{
 				{
                   matriz[i][j]= 'n';
 				}
-
 			}
 		}
 
-
+		
 		for (int i=0; i<matriz.length; i++ )
 		{
 			for (int j=0; j<matriz.length ; j++ )
 			{
 				if(matriz[i][j]=='r')
 				{
-					System.out.print(ConsoleColors.RED_BACKGROUND + "  ");
+				    System.out.print(ConsoleColors.RED_BACKGROUND + "  ");
 				}
 
 				else if (matriz[i][j]=='n') 
